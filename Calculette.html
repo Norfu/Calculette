@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link href="Calculatrice.css" rel="stylesheet">
+    <script type="text/javascript" src="Calculatrice.js"></script>
+    
+    <title>Calculatrice</title>
+</head>
+<body>
+    <div class="calculette">
+        <div class="ecran">
+            <div id="nombreX"></div>
+            <div id="operateur"></div>
+            <div id="nombreY"></div>
+            <div id="resultat"></div>
+        </div>
+        <button onclick="functionCE()">CE</button>
+        <button onclick="functionC()">C</button>
+        <button onclick="functionDelete()"><-</button>
+        <button onclick="functionOperateur('/')">/</button>
+        <br/>
+        <button onclick="functionAdd('7')">7</button>
+        <button onclick="functionAdd('8')">8</button>
+        <button onclick="functionAdd('9')">9</button>
+        <button onclick="functionOperateur('*')">*</button>
+        <br/>
+        <button onclick="functionAdd('4')">4</button>
+        <button onclick="functionAdd('5')">5</button>
+        <button onclick="functionAdd('6')">6</button>
+        <button onclick="functionOperateur('-')">-</button>
+        <br/>
+        <button onclick="functionAdd('1')">1</button>
+        <button onclick="functionAdd('2')">2</button>
+        <button onclick="functionAdd('3')">3</button>
+        <button onclick="functionOperateur('+')">+</button>
+        <br/>
+        <button onclick="functionNegativ()">+/-</button>
+        <button onclick="functionAdd('0')">0</button>
+        <button onclick="functionComa()">,</button>
+        <button onclick="functionResult()">=</button>
+    </div>
+
+</body>
+</html>
