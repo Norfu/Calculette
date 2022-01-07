@@ -81,10 +81,10 @@ function functionNegativ(){
     }
 }
 
-// function functionComa(){
-//     if (document.getElementById("nombreY").innerHTML !=''){
-//         document.getElementById("nombreY").innerHTML = parseInt(document.getElementById("nombreY").innerHTML,10)
-//     }else if (document.getElementById("nombreX").innerHTML != ''){
-//         document.getElementById("nombreX").innerHTML = parseInt(document.getElementById("nombreX").innerHTML,10)* -1
-//     }
-// }
+function functionComa(){
+    if (document.getElementById("nombreY").innerHTML !=''){
+        document.getElementById("nombreY").innerHTML = parseInt(document.getElementById("nombreY").innerHTML,10)*1
+    }else if (document.getElementById("nombreX").innerHTML != ''){
+        document.getElementById("nombreX").innerHTML = parseInt(document.getElementById("nombreX").innerHTML,10)* -1
+    }
+}
